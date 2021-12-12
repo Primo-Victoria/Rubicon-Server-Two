@@ -1,0 +1,5 @@
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.deps.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.csprojAssemblyReference.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.AssemblyInfoInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.AssemblyInfo.cs

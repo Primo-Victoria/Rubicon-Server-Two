@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Rubicone_Server_Two.BusinessLogic.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>

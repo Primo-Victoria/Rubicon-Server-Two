@@ -1,0 +1,5 @@
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.deps.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.csprojAssemblyReference.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.AssemblyInfoInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.AssemblyInfo.cs
