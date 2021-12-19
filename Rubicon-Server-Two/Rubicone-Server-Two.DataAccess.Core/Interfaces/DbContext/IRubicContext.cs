@@ -12,6 +12,6 @@ namespace Rubicone_Server_Two.DataAccess.Core.Interfaces.DbContext
     {
         DbSet<UserRto> Users { get; set; }
         DbSet<UserRoleRto> UserRoles { get; set; }
-        Task<int> SaveChangeAsync(CancellationToken cancellationToken = default);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }
