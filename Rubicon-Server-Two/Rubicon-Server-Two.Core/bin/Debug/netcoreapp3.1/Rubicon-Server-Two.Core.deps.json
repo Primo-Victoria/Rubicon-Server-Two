@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rubicon-Server-Two.Core/1.0.0": {
+        "runtime": {
+          "Rubicon-Server-Two.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rubicon-Server-Two.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

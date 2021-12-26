@@ -1,0 +1,9 @@
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.deps.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.csprojAssemblyReference.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.AssemblyInfoInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.AssemblyInfo.cs
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.csproj.CoreCompileInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.pdb

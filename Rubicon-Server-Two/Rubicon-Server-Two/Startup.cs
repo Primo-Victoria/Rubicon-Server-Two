@@ -6,10 +6,15 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Rubicon_Server_Two.Automapper;
+using Rubicone_Server_Two.BusinessLogic.AutoMapperProfile;
+using Rubicone_Server_Two.DataAccess.Core.Interfaces.DbContext;
+using Rubicone_Server_Two.DataAccess.DbContext;
 
 namespace Rubicon_Server_Two
 {
@@ -25,6 +30,8 @@ namespace Rubicon_Server_Two
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(BuisnessLogicProfile), typeof(MicroserviceProfile));
+            services.AddDbContext<IRubicContext, RubicContext>(o => o.UseSqlite("Data Source=base.db"));
             services.AddControllers();
         }
 
@@ -35,8 +42,6 @@ namespace Rubicon_Server_Two
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

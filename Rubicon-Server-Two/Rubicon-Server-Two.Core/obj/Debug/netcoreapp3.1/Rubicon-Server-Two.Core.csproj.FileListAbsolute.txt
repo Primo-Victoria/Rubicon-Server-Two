@@ -1,0 +1,9 @@
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\bin\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.deps.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\bin\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\bin\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\obj\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.csprojAssemblyReference.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\obj\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.AssemblyInfoInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\obj\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.AssemblyInfo.cs
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\obj\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.csproj.CoreCompileInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\obj\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicon-Server-Two.Core\obj\Debug\netcoreapp3.1\Rubicon-Server-Two.Core.pdb

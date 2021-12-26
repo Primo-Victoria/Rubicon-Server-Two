@@ -4,14 +4,14 @@
     "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj": {
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.Core\\Rubicon-Server-Two.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj",
-        "projectName": "Rubicon-Server-Two",
-        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj",
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.Core\\Rubicon-Server-Two.Core.csproj",
+        "projectName": "Rubicon-Server-Two.Core",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.Core\\Rubicon-Server-Two.Core.csproj",
         "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\obj\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -52,9 +52,407 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj",
+        "projectName": "Rubicon-Server-Two",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.Core\\Rubicon-Server-Two.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.Core\\Rubicon-Server-Two.Core.csproj"
+              },
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj"
+              },
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic\\Rubicone-Server-Two.BusinessLogic.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic\\Rubicone-Server-Two.BusinessLogic.csproj"
+              },
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj"
+              },
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess\\Rubicone-Server-Two.DataAccess.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess\\Rubicone-Server-Two.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj",
+        "projectName": "Rubicone-Server-Two.BusinessLogic.Core",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic\\Rubicone-Server-Two.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic\\Rubicone-Server-Two.BusinessLogic.csproj",
+        "projectName": "Rubicone-Server-Two.BusinessLogic",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic\\Rubicone-Server-Two.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.BusinessLogic.Core\\Rubicone-Server-Two.BusinessLogic.Core.csproj"
+              },
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj"
+              },
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Share\\Share.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Share\\Share.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj",
+        "projectName": "Rubicone-Server-Two.DataAccess.Core",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess\\Rubicone-Server-Two.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess\\Rubicone-Server-Two.DataAccess.csproj",
+        "projectName": "Rubicone-Server-Two.DataAccess",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess\\Rubicone-Server-Two.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicone-Server-Two.DataAccess.Core\\Rubicone-Server-Two.DataAccess.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Share\\Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Share\\Share.csproj",
+        "projectName": "Share",
+        "projectPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Share\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
