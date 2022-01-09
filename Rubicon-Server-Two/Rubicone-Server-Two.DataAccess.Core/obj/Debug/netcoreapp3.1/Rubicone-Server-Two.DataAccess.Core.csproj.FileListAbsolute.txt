@@ -3,3 +3,7 @@ C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.C
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.csprojAssemblyReference.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.AssemblyInfoInputs.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.AssemblyInfo.cs
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.csproj.CoreCompileInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.pdb

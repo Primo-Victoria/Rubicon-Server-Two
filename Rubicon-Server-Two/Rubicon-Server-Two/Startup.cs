@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +15,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Rubicon_Server_Two.Automapper;
 using Rubicone_Server_Two.BusinessLogic.AutoMapperProfile;
+using Rubicone_Server_Two.BusinessLogic.Core.Interfaces;
+using Rubicone_Server_Two.BusinessLogic.Services;
 using Rubicone_Server_Two.DataAccess.Core.Interfaces.DbContext;
 using Rubicone_Server_Two.DataAccess.DbContext;
 
@@ -32,7 +36,11 @@ namespace Rubicon_Server_Two
         {
             services.AddAutoMapper(typeof(BuisnessLogicProfile), typeof(MicroserviceProfile));
             services.AddDbContext<IRubicContext, RubicContext>(o => o.UseSqlite("Data Source=base.db"));
+
+            services.AddScoped<IUserService, UserService>();
             services.AddControllers();
+
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,9 +51,26 @@ namespace Rubicon_Server_Two
                 app.UseDeveloperExceptionPage();
             }
 
+            //Важно соблюдать порядок
+
+            app.UseCors(p => p.AllowAnyMethod().AllowAnyHeader());
+
             app.UseRouting();
 
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedFor
+            });
+                
+
             app.UseAuthorization();
+
+            using var scope = app.ApplicationServices.CreateScope();
+            var mapper = scope.ServiceProvider.GetRequiredService<IMapper>();
+            mapper.ConfigurationProvider.AssertConfigurationIsValid();
+
+            var dbContext = scope.ServiceProvider.GetRequiredService<RubicContext>();
+            dbContext.Database.Migrate();
 
             app.UseEndpoints(endpoints =>
             {

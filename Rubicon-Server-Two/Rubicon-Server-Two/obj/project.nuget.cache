@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MUy4XYIB0PzI/Cc50sN8vvFsUNfUFbdOI3EUQlpVwYNNsIjKuLS7aRwjyn01PV8CduJ5DFSIAQbizyR61hTZ0A==",
+  "dgSpecHash": "Bz6w0baeqkwnGNTYmB61jNo5wm1TLw+gm3V5C8G2u36WCaZ5ayPdv4vD9O0uD4evbsIEw5efsIp4QO9Xrw6zPw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two\\Rubicon-Server-Two.csproj",
   "expectedPackageFiles": [
@@ -14,9 +14,11 @@
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.22\\microsoft.entityframeworkcore.3.1.22.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.22\\microsoft.entityframeworkcore.abstractions.3.1.22.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.22\\microsoft.entityframeworkcore.analyzers.3.1.22.nupkg.sha512",
+    "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.21\\microsoft.entityframeworkcore.design.3.1.21.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.22\\microsoft.entityframeworkcore.relational.3.1.22.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.22\\microsoft.entityframeworkcore.sqlite.3.1.22.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.22\\microsoft.entityframeworkcore.sqlite.core.3.1.22.nupkg.sha512",
+    "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.21\\microsoft.entityframeworkcore.tools.3.1.21.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.22\\microsoft.extensions.caching.abstractions.3.1.22.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.22\\microsoft.extensions.caching.memory.3.1.22.nupkg.sha512",
     "C:\\Users\\StudentDev\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.22\\microsoft.extensions.configuration.3.1.22.nupkg.sha512",

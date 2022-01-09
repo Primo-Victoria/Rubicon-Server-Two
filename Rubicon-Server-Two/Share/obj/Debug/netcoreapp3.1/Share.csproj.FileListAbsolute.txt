@@ -1,0 +1,9 @@
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\bin\Debug\netcoreapp3.1\Share.deps.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\bin\Debug\netcoreapp3.1\Share.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\bin\Debug\netcoreapp3.1\Share.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\obj\Debug\netcoreapp3.1\Share.csprojAssemblyReference.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\obj\Debug\netcoreapp3.1\Share.AssemblyInfoInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\obj\Debug\netcoreapp3.1\Share.AssemblyInfo.cs
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\obj\Debug\netcoreapp3.1\Share.csproj.CoreCompileInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\obj\Debug\netcoreapp3.1\Share.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Share\obj\Debug\netcoreapp3.1\Share.pdb

@@ -3,3 +3,13 @@ C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\b
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.csprojAssemblyReference.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.AssemblyInfoInputs.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.AssemblyInfo.cs
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.runtimeconfig.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.runtimeconfig.dev.json
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.csproj.CopyComplete
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.genruntimeconfig.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.DataAccess\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.csproj.CoreCompileInputs.cache

@@ -3,3 +3,14 @@ C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogi
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.csprojAssemblyReference.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.AssemblyInfoInputs.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.AssemblyInfo.cs
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Share.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Rubicone-Server-Two.DataAccess.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\bin\Debug\netcoreapp3.1\Share.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.csproj.CopyComplete
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.dll
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.pdb
