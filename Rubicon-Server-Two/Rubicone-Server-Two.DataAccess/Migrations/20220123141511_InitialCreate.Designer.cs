@@ -9,7 +9,7 @@ using Rubicone_Server_Two.DataAccess.DbContext;
 namespace Rubicone_Server_Two.DataAccess.Migrations
 {
     [DbContext(typeof(RubicContext))]
-    [Migration("20220109142946_InitialCreate")]
+    [Migration("20220123141511_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
