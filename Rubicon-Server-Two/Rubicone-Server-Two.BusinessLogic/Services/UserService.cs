@@ -94,11 +94,11 @@ namespace Rubicone_Server_Two.BusinessLogic.Services
 
         }
 
-        public async Task<UserInformationBlo> Update(string numberPrefix, string number, string password, UserUpdateBlo userUpdateBlo)
+        public async Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo)
         {
-            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumber == number && y.PhoneNumberPrefix == numberPrefix && y.Password == password);
+            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumber == userUpdateBlo.CurrentPhoneNumber && y.PhoneNumberPrefix == userUpdateBlo.CurrentPhoneNumberPrefix && y.Password == userUpdateBlo.CurrentPhoneNumberPassword);
 
-            if (user == null) throw new NotFoundException("Такого пользователя нету");
+            if (user == null) throw new NotFoundException("Такого пользователя нет");
 
             user.Password = userUpdateBlo.Password;
             user.FirstName = userUpdateBlo.FirstName;

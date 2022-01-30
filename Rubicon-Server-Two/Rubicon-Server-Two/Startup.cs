@@ -66,6 +66,7 @@ namespace Rubicon_Server_Two
             app.UseAuthorization();
 
             using var scope = app.ApplicationServices.CreateScope();
+
             var mapper = scope.ServiceProvider.GetRequiredService<IMapper>();
             mapper.ConfigurationProvider.AssertConfigurationIsValid();
 

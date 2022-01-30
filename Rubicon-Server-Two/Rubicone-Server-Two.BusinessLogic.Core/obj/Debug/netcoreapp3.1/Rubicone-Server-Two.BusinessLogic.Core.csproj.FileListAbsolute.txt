@@ -6,3 +6,4 @@ C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogi
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.csproj.CoreCompileInputs.cache
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.dll
 C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.pdb
+C:\GitHub\Rubicon-Server-Two\Rubicon-Server-Two\Rubicone-Server-Two.BusinessLogic.Core\obj\Debug\netcoreapp3.1\Rubicone-Server-Two.BusinessLogic.Core.csprojAssemblyReference.cache

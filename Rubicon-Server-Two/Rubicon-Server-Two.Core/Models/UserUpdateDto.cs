@@ -18,5 +18,10 @@ namespace Rubicon_Server_Two.Core.Models
         public string Patronymic { get; set; }
         public DateTimeOffset Birthday { get; set; }
         public string AvatarUrl { get; set; }
+
+
+        public string CurrentPhoneNumber { get; set; }
+        public string CurrentPhoneNumberPrefix { get; set; }
+        public string CurrentPhoneNumberPassword { get; set; }
     }
 }
